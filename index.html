@@ -16,6 +16,11 @@
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/experiences.css">
     <link rel="stylesheet" href="css/contact.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/iconos/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/iconos/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/iconos/favicon-16x16.png">
+    <link rel="manifest" href="img/iconos/site.webmanifest">
     <script defer src="js/app.js"></script>
 </head>
 
@@ -47,9 +52,7 @@
             <div class="profile-info">
                 <h1 class="profile-title">Hola, soy <br>César Martínez</h1>
                 <p class="profile-details">Soy tecnólogo de desarrollo de Software y actualmente estoy avanzando en mi formación como Tecnólogo en Desarrollo de Software.  Mi experiencia se centra en la creación de aplicaciones móviles utilizando lenguajes como Java, Kotlin y C#. Además, poseo un sólido conocimiento en desarrollo web utilizando HTML, CSS y JavaScript, junto con la gestión eficiente de bases de datos como MySql y MongoDB.</p>
-                <button class="profile-btn">
-                    Descargar cv
-                </button>
+                <a href="Hoja de vida.pdf" class="profile-btn" download>Descargar cv</a>
             </div>
             <span class="profile-img-section">
                 <img class="profile-img" src="img/Foto.png" alt="programador">
@@ -130,7 +133,7 @@
                     <p class="contact-text">Deje su mensaje y con gusto le responderé</p>
                 </div>
             </div>
-            <form class="contact-form">
+            <form class="contact-form" name="contact" netlify>
                 <div class="contact-form-group">
                     <label for="name">Nombre</label>
                     <input type="text" name="name" id="name" required>
@@ -165,9 +168,6 @@
                 </ul>
             </nav>
         </section>
-    </div>
-    <div>
-        Video 7
     </div>
 </body>
 
